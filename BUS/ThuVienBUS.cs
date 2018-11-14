@@ -37,5 +37,9 @@ namespace BUS
         {
             return new ThuVienDAO().UpdateViTri(vitri, soluong, id);
         }
+        public List<ThuVien> SearchThuVien(string name)
+        {
+            return new ThuVienDAO().SearchThuVien(name);
+        }
     }
 }

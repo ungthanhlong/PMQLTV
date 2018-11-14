@@ -95,5 +95,10 @@ namespace PMQLThuVien
                 MessageBox.Show("Có lỗi khi sửa nhân viên");
             }
         }
+
+        private void btnTKTV_Click(object sender, EventArgs e)
+        {
+            TVList.DataSource = TVBUS.SearchThuVien(txtTK.Text);
+        }
     }
 }

@@ -74,6 +74,17 @@ namespace DAO
 
             return result > 0;
         }
-
+        public List<ThuVien> SearchThuVien(string name)
+        {
+            List<ThuVien> listTV = new List<ThuVien>();
+            string query = string.Format("SELECT * FROM dbo.ThuVien WHERE dbo.fuConvertToUnsign1(TenSach) LIKE N'%' + dbo.fuConvertToUnsign1(N'{0}') + '%'", name);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
+            foreach (DataRow item in data.Rows)
+            {
+                ThuVien TV = new ThuVien(item);
+                listTV.Add(TV);
+            }
+            return listTV;
+        }
     }
 }

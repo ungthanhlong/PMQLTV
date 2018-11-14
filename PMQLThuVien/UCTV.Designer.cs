@@ -29,6 +29,12 @@
         private void InitializeComponent()
         {
             this.dtgvTV = new System.Windows.Forms.DataGridView();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnTKTV = new System.Windows.Forms.Button();
             this.txtTK = new System.Windows.Forms.TextBox();
             this.btnTTV = new System.Windows.Forms.Button();
@@ -46,12 +52,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.txtVT = new System.Windows.Forms.TextBox();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTV)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,6 +73,52 @@
             this.dtgvTV.Size = new System.Drawing.Size(859, 333);
             this.dtgvTV.TabIndex = 0;
             // 
+            // ID
+            // 
+            this.ID.DataPropertyName = "id";
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
+            this.ID.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "tensach";
+            this.Column2.HeaderText = "Tên Sách";
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            this.Column2.Width = 250;
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "tentacgia";
+            this.Column3.HeaderText = "Tên Tác Giả";
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            this.Column3.Width = 150;
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "nxb";
+            this.Column4.HeaderText = "Nhà Xuất Bản";
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            this.Column4.Width = 135;
+            // 
+            // Column5
+            // 
+            this.Column5.DataPropertyName = "soluong";
+            this.Column5.HeaderText = "Số Lượng";
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            this.Column5.Width = 80;
+            // 
+            // Column6
+            // 
+            this.Column6.DataPropertyName = "vitri";
+            this.Column6.HeaderText = "Vị Trí";
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
             // btnTKTV
             // 
             this.btnTKTV.Location = new System.Drawing.Point(476, 112);
@@ -81,6 +127,7 @@
             this.btnTKTV.TabIndex = 2;
             this.btnTKTV.Text = "Tìm Kiếm";
             this.btnTKTV.UseVisualStyleBackColor = true;
+            this.btnTKTV.Click += new System.EventHandler(this.btnTKTV_Click);
             // 
             // txtTK
             // 
@@ -227,52 +274,6 @@
             this.txtVT.Name = "txtVT";
             this.txtVT.Size = new System.Drawing.Size(313, 20);
             this.txtVT.TabIndex = 18;
-            // 
-            // ID
-            // 
-            this.ID.DataPropertyName = "id";
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
-            this.ID.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.DataPropertyName = "tensach";
-            this.Column2.HeaderText = "Tên Sách";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            this.Column2.Width = 250;
-            // 
-            // Column3
-            // 
-            this.Column3.DataPropertyName = "tentacgia";
-            this.Column3.HeaderText = "Tên Tác Giả";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            this.Column3.Width = 150;
-            // 
-            // Column4
-            // 
-            this.Column4.DataPropertyName = "nxb";
-            this.Column4.HeaderText = "Nhà Xuất Bản";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
-            this.Column4.Width = 135;
-            // 
-            // Column5
-            // 
-            this.Column5.DataPropertyName = "soluong";
-            this.Column5.HeaderText = "Số Lượng";
-            this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
-            this.Column5.Width = 80;
-            // 
-            // Column6
-            // 
-            this.Column6.DataPropertyName = "vitri";
-            this.Column6.HeaderText = "Vị Trí";
-            this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
             // 
             // UCTV
             // 
