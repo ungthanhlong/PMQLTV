@@ -1,0 +1,9 @@
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\BUS\bin\Debug\BUS.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\BUS\bin\Debug\BUS.pdb
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\BUS\bin\Debug\DAO.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\BUS\bin\Debug\DTO.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\BUS\bin\Debug\DAO.pdb
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\BUS\bin\Debug\DTO.pdb
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\BUS\obj\Debug\BUS.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\BUS\obj\Debug\BUS.pdb

@@ -1,0 +1,7 @@
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\DAO\bin\Debug\DAO.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\DAO\bin\Debug\DAO.pdb
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\DAO\bin\Debug\DTO.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\DAO\bin\Debug\DTO.pdb
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\DAO\obj\Debug\DAO.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\PMQLThuVien\DAO\obj\Debug\DAO.pdb
