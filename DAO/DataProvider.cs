@@ -18,53 +18,36 @@ namespace DAO
         }
         private string cnStr = @"Data Source=.\SQLEXPRESS;Initial Catalog=QLThuVien;Integrated Security=True";
 
-        public DataTable ExecuteQuery(string query, object[] parameter = null)
+        public DataTable ExecuteQuery(string query)
         {
-            DataTable data = new DataTable();
-
-            using (SqlConnection cn = new SqlConnection(cnStr))
-            {
+                DataTable data = new DataTable();
+                SqlConnection cn = new SqlConnection(cnStr);
                 cn.Open();
-
                 SqlCommand command = new SqlCommand(query, cn);
-
-                if (parameter != null)
-                {
-                    string[] listPara = query.Split(' ');
-                    int i = 0;
-                    foreach (string item in listPara)
-                    {
-                        if (item.Contains('@'))
-                        {
-                            command.Parameters.AddWithValue(item, parameter[i]);
-                            i++;
-                        }
-                    }
-                }
-
                 SqlDataAdapter adapter = new SqlDataAdapter(command);
-
                 adapter.Fill(data);
-
                 cn.Close();
-            }
-
-            return data;
+                return data;
         }
         public int ExecuteNonQuery(string query)
         {
-            int data = 0;
-
+                int data = 0;
+                SqlConnection cn = new SqlConnection(cnStr);
+                cn.Open();
+                SqlCommand command = new SqlCommand(query, cn);
+                data = command.ExecuteNonQuery();
+                cn.Close();
+                return data;
+        }
+        public bool ExecuteScalar(string query)
+        {
             SqlConnection cn = new SqlConnection(cnStr);
             cn.Open();
-
-            SqlCommand command = new SqlCommand(query, cn);
-
-            data = command.ExecuteNonQuery();
-
-            cn.Close();
-
-            return data;
+            SqlCommand cmd = new SqlCommand(query,cn);
+            int count = (int)cmd.ExecuteScalar();
+            if (count == 1)
+                return true;
+            else return false;
         }
     }
 }

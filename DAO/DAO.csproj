@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="DataProvider.cs" />
     <Compile Include="DocGiaDAO.cs" />
+    <Compile Include="DSMDAO.cs" />
+    <Compile Include="LoGinDAO.cs" />
     <Compile Include="NhanVienDAO.cs" />
     <Compile Include="PhieuMuonDAO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

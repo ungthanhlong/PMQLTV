@@ -28,9 +28,12 @@ C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\bin\Debug\DT
 C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\bin\Debug\DAO.pdb
 C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.csprojResolveAssemblyReference.cache
 C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.Properties.Resources.resources
-C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.Table.resources
 C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.UCDG.resources
 C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.UCNV.resources
 C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.UCTK.resources
 C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.UCTV.resources
 C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.csproj.GenerateResource.Cache
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.UCPMS.resources
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.UCDSM.resources
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.frmLoGin.resources
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (2)\PMQLTV\PMQLThuVien\obj\x86\Debug\PMQLThuVien.frmTable.resources

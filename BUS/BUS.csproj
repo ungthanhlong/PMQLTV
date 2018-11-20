@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DocGiaBUS.cs" />
+    <Compile Include="DSMBUS.cs" />
+    <Compile Include="LoGinBUS.cs" />
     <Compile Include="NhanVienBUS.cs" />
     <Compile Include="PhieuMuonBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

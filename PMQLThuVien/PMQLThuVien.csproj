@@ -46,19 +46,37 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Table.cs">
+    <Compile Include="frmLoGin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Table.Designer.cs">
-      <DependentUpon>Table.cs</DependentUpon>
+    <Compile Include="frmLoGin.Designer.cs">
+      <DependentUpon>frmLoGin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="frmTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTable.Designer.cs">
+      <DependentUpon>frmTable.cs</DependentUpon>
     </Compile>
     <Compile Include="UCDG.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UCDG.Designer.cs">
       <DependentUpon>UCDG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCDSM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCDSM.Designer.cs">
+      <DependentUpon>UCDSM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCPMS.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCPMS.Designer.cs">
+      <DependentUpon>UCPMS.cs</DependentUpon>
     </Compile>
     <Compile Include="UCNV.cs">
       <SubType>UserControl</SubType>
@@ -78,6 +96,9 @@
     <Compile Include="UCTV.Designer.cs">
       <DependentUpon>UCTV.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmLoGin.resx">
+      <DependentUpon>frmLoGin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -87,11 +108,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Table.resx">
-      <DependentUpon>Table.cs</DependentUpon>
+    <EmbeddedResource Include="frmTable.resx">
+      <DependentUpon>frmTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCDG.resx">
       <DependentUpon>UCDG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCDSM.resx">
+      <DependentUpon>UCDSM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCPMS.resx">
+      <DependentUpon>UCPMS.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCNV.resx">
       <DependentUpon>UCNV.cs</DependentUpon>

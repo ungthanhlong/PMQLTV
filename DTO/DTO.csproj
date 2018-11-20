@@ -41,10 +41,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DocGia.cs" />
+    <Compile Include="DSM.cs" />
+    <Compile Include="DSPMS.cs" />
     <Compile Include="NhanVien.cs" />
-    <Compile Include="PhieuMuon.cs" />
+    <Compile Include="Bill.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Temp.cs" />
     <Compile Include="ThuVien.cs" />
+    <Compile Include="XemMuonSach.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
