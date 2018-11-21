@@ -7,7 +7,7 @@ using System.Data;
 namespace DTO
 {
    public class NhanVien
-    {//aaaaa
+    {//aaaaaa
         public NhanVien(int id, string hoten, string ngaysinh, string gioitinh, string sdt, string diachi, int cmnd)
         {
             this.ID = id;
