@@ -1,0 +1,13 @@
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\obj\Debug\UnitTest.csprojResolveAssemblyReference.cache
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\bin\Debug\UnitTest.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\bin\Debug\UnitTest.pdb
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\bin\Debug\BUS.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\bin\Debug\DTO.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\bin\Debug\DAO.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\bin\Debug\BUS.pdb
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\bin\Debug\DTO.pdb
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\bin\Debug\DAO.pdb
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\obj\Debug\UnitTest.dll
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\obj\Debug\UnitTest.pdb
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\bin\Debug\PMQLThuVien.exe
+C:\Users\LAPTOP DUC NGHIA\Desktop\New folder (3)\PMQLTV\UnitTest\bin\Debug\PMQLThuVien.pdb

@@ -17,6 +17,7 @@ namespace PMQLThuVien
         {
             InitializeComponent();
         }
+           
         private void button1_Click(object sender, EventArgs e)
         {
             string user = txtUser.Text;
