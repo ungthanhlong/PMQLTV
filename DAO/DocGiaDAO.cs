@@ -10,7 +10,7 @@ namespace DAO
     public class DocGiaDAO
     {
         private static DocGiaDAO instance;
-        //a
+       
         public static DocGiaDAO Instance
         {
             get { if (instance == null)instance = new DocGiaDAO(); return DocGiaDAO.instance; }
