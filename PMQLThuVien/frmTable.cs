@@ -14,6 +14,8 @@ namespace PMQLThuVien
         public frmTable()
         {
             InitializeComponent();
+
+            panel2.Controls.Add(new UCNV());
         }
 
         private void btnCD_Click(object sender, EventArgs e)
